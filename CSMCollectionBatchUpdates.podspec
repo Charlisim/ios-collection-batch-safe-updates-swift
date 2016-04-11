@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
   s.author       = { "Carlos Simon" => "csimonts@gmail.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/Charlisim/ios-collection-batch-safe-updates-swift.git", :tag => s.version.to_s }
-  s.source_files = "CSMCollectionBatchUpdates/*"
-  s.public_header_files = "CSMCollectionBatchUpdates/*.h"
+  s.source_files = "CSMCollectionBatchUpdates/*.swift"
   s.requires_arc = true
 end
