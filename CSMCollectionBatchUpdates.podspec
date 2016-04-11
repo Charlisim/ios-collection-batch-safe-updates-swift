@@ -9,7 +9,9 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT"}
   s.author       = { "Carlos Simon" => "csimonts@gmail.com" }
   s.platform     = :ios, "8.0"
+  s.ios.deployment_target = '8.0'
+
   s.source       = { :git => "https://github.com/Charlisim/ios-collection-batch-safe-updates-swift.git", :tag => s.version.to_s }
-  s.source_files = "CSMCollectionBatchUpdates/*.swift"
+  s.source_files = "CSMCollectionBatchUpdates/CSMCollectionBatchUpdates"
   s.requires_arc = true
 end
